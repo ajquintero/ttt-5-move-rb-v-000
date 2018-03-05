@@ -9,7 +9,7 @@ puts "Where would you like to go?"
 input = gets.strip()
 
 #converts users input into array
-index = input_to_index(input)
+index = input_to_index(player_input)
 
 move(board, index, "X")
 display_board(board)
